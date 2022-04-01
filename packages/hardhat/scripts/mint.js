@@ -16,7 +16,7 @@ const delayMS = 1000; // sometimes xDAI needs a 6000ms break lol 😅
 
 const main = async () => {
   // ADDRESS TO MINT TO:
-  const toAddress = "YOUR_FRONTEND_ADDRESS";
+  const toAddress = "0xc09443fDECb157Ab4e91016Ef1B6F09D8cEA214e";
 
   console.log("\n\n 🎫 Minting to " + toAddress + "...\n");
 
