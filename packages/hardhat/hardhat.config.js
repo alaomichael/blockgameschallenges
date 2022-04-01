@@ -20,7 +20,7 @@ const { isAddress, getAddress, formatUnits, parseUnits } = utils;
 */
 
 // Select the network you want to deploy to here:
-const defaultNetwork = "rinkeby";
+const defaultNetwork = "localhost";
 
 const mainnetGwei = 115;
 
@@ -57,7 +57,7 @@ module.exports = {
       url: "https://rinkeby.infura.io/v3/e3b567b6ce734c4caa2d491b7344fa38", // <---- YOUR INFURA ID! (or it won't work)
       //    url: "https://speedy-nodes-nyc.moralis.io/XXXXXXXXXXXXXXXXXXXXXXX/eth/rinkeby", // <---- YOUR MORALIS ID! (not limited to infura)
       accounts: {
-        mnemonic: mnemonic(),
+      mnemonic: mnemonic(),
       },
     },
     kovan: {
